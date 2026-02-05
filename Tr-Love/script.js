@@ -10,7 +10,7 @@ document.getElementById("btnNo").addEventListener("mouseover", function () {
 document.getElementById("btnSi").addEventListener("click", function () {
   Swal.fire({
     position: "top-center",
-    title: "Soy el hombre mas feliz del mundo🥰",
+    title: "Soy el hombre mas feliz del mundo. TE AMO XD🥰",
     showConfirmButton: false,
     timer: 1500,
   });
@@ -57,7 +57,6 @@ document.getElementById("btnSi").addEventListener("click", function () {
     ctx.fillRect(0, 0, width, height);
 
     var heartPosition = function (rad) {
-      //return [Math.sin(rad), Math.cos(rad)];
       return [
         Math.pow(Math.sin(rad), 3),
         -(
